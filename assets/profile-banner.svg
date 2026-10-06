@@ -1,0 +1,202 @@
+<svg width="1400" height="430" viewBox="0 0 1400 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.48" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+
+```
+<linearGradient id="neon" x1="190" y1="100" x2="1160" y2="350" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#8B5CF6"/>
+  <stop offset="0.5" stop-color="#22D3EE"/>
+  <stop offset="1" stop-color="#EC4899"/>
+</linearGradient>
+
+<linearGradient id="text" x1="290" y1="100" x2="980" y2="250" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#FFFFFF"/>
+  <stop offset="0.48" stop-color="#C4B5FD"/>
+  <stop offset="1" stop-color="#67E8F9"/>
+</linearGradient>
+
+<radialGradient id="orb1" cx="0" cy="0" r="1"
+  gradientUnits="userSpaceOnUse"
+  gradientTransform="translate(1160 90) rotate(135) scale(250)">
+  <stop stop-color="#8B5CF6" stop-opacity=".42"/>
+  <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="orb2" cx="0" cy="0" r="1"
+  gradientUnits="userSpaceOnUse"
+  gradientTransform="translate(210 340) rotate(-45) scale(260)">
+  <stop stop-color="#06B6D4" stop-opacity=".34"/>
+  <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+</radialGradient>
+
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+  <feGaussianBlur stdDeviation="8" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+<pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+  <path d="M38 0H0V38" stroke="#94A3B8" stroke-opacity=".08"/>
+</pattern>
+```
+
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="1400" height="430" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1398" height="428" rx="27"
+        stroke="url(#neon)" stroke-opacity=".55" stroke-width="2"/>
+  <rect width="1400" height="430" rx="28" fill="url(#grid)"/>
+
+  <!-- Ambient neon -->
+
+  <circle cx="1160" cy="90" r="250" fill="url(#orb1)"/>
+  <circle cx="210" cy="340" r="260" fill="url(#orb2)"/>
+
+  <!-- 3D perspective floor -->
+
+  <g opacity=".45" transform="translate(820 275)">
+    <path d="M0 0H520" stroke="#22D3EE"/>
+    <path d="M0 25H520" stroke="#8B5CF6"/>
+    <path d="M0 50H520" stroke="#22D3EE"/>
+    <path d="M0 75H520" stroke="#8B5CF6"/>
+
+```
+<path d="M40 0L0 90" stroke="#22D3EE"/>
+<path d="M120 0L100 90" stroke="#8B5CF6"/>
+<path d="M200 0L200 90" stroke="#22D3EE"/>
+<path d="M280 0L300 90" stroke="#8B5CF6"/>
+<path d="M360 0L400 90" stroke="#22D3EE"/>
+<path d="M440 0L500 90" stroke="#8B5CF6"/>
+```
+
+  </g>
+
+  <!-- Floating 3D rings -->
+
+  <g transform="translate(1080 160)" filter="url(#glow)">
+    <ellipse cx="0" cy="0" rx="112" ry="38"
+             stroke="#22D3EE" stroke-width="3" opacity=".8"/>
+
+```
+<ellipse cx="0" cy="0" rx="112" ry="38"
+         stroke="#8B5CF6" stroke-width="3"
+         transform="rotate(60)" opacity=".75"/>
+
+<ellipse cx="0" cy="0" rx="112" ry="38"
+         stroke="#EC4899" stroke-width="3"
+         transform="rotate(120)" opacity=".65"/>
+
+<circle cx="0" cy="0" r="15"
+        fill="#0B1020" stroke="#67E8F9" stroke-width="3"/>
+
+<circle cx="0" cy="0" r="5" fill="#67E8F9"/>
+```
+
+  </g>
+
+  <!-- Geometric 3D cube -->
+
+  <g transform="translate(1020 275)" opacity=".8">
+    <path d="M0 30L70 0L140 30L70 60L0 30Z"
+          fill="#4C1D95" fill-opacity=".35"
+          stroke="#A78BFA"/>
+
+```
+<path d="M0 30V105L70 140V60L0 30Z"
+      fill="#111827"
+      stroke="#8B5CF6"/>
+
+<path d="M140 30V105L70 140V60L140 30Z"
+      fill="#0E7490"
+      fill-opacity=".35"
+      stroke="#22D3EE"/>
+
+<path d="M70 60V140"
+      stroke="#67E8F9"
+      stroke-opacity=".65"/>
+```
+
+  </g>
+
+  <!-- Developer/code details -->
+
+  <g font-family="monospace" fill="#94A3B8" opacity=".5">
+    <text x="80" y="80" font-size="15">&lt;/build&gt;</text>
+    <text x="80" y="105" font-size="12">
+      const developer = "Yatharth";
+    </text>
+
+```
+<text x="1180" y="350" font-size="14">
+  { code • learn • create }
+</text>
+
+<text x="1180" y="375" font-size="12">
+  01001 11010 01101
+</text>
+```
+
+  </g>
+
+  <!-- Main identity -->
+
+<text x="80" y="205"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="62"
+     font-weight="800"
+     letter-spacing="5"
+     fill="url(#text)">
+YATHARTH JAIN </text>
+
+<rect x="84" y="226"
+     width="560"
+     height="2"
+     rx="1"
+     fill="url(#neon)"
+     opacity=".9"/>
+
+<text x="82" y="265"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="23"
+     font-weight="600"
+     fill="#E2E8F0">
+Software Developer </text>
+
+<text x="82" y="300"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="23"
+     font-weight="600"
+     fill="#C4B5FD">
+Web Developer </text>
+
+<text x="82" y="335"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="23"
+     font-weight="600"
+     fill="#67E8F9">
+Computer Science Student </text>
+
+<text x="82" y="382"
+     font-family="monospace"
+     font-size="15"
+     letter-spacing="3"
+     fill="#94A3B8">
+BUILD  •  LEARN  •  CREATE </text>
+
+  <!-- Neon particles -->
+
+  <g filter="url(#glow)">
+    <circle cx="60" cy="45" r="4" fill="#22D3EE"/>
+    <circle cx="1330" cy="70" r="4" fill="#EC4899"/>
+    <circle cx="1260" cy="390" r="3" fill="#8B5CF6"/>
+    <circle cx="700" cy="45" r="3" fill="#22D3EE"/>
+  </g>
+</svg>
