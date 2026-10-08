@@ -1,431 +1,338 @@
-# 🌆 CityPulse — Live Civic Intelligence Dashboard
+<div align="center">
 
-> **A real-time civic intelligence platform for monitoring city conditions, detecting anomalies, identifying possible multi-signal events, and supporting faster civic decision-making.**
+<img src="./assets/profile-banner.svg" width="100%" alt="Yatharth Jain animated profile banner">
 
-🔗 **Live Demo:** (https://married-graduate-guam-rpg.trycloudflare.com/login)
+# ⚡ YATHARTH JAIN
 
----
+### Software Developer · Web Developer · Computer Science Student
 
-## 📌 Overview
+**Building practical software • Exploring intelligent systems • Learning by creating**
 
-**CityPulse** is a smart civic intelligence dashboard designed to bring different city-level signals together in one place.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2200&pause=600&color=8B5CF6&center=true&vCenter=true&width=850&lines=Software+Developer;Web+Developer;Python+Developer;Building+Real-World+Projects;Exploring+AI+%26+Data;Build+%E2%86%92+Debug+%E2%86%92+Improve" alt="Animated typing">
 
-Modern cities generate large amounts of data from different sources such as traffic, weather, public complaints, incidents, environmental conditions, and other civic indicators. Monitoring these signals separately can make it difficult to identify unusual situations or relationships between events.
+<a href="https://github.com/yatharthg1727-ctrl"><img src="https://img.shields.io/badge/GitHub-yatharthg1727--ctrl-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/yatharthjain1234879/"><img src="https://img.shields.io/badge/LinkedIn-Yatharth%20Jain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
-CityPulse provides a centralized dashboard where users can:
-
-* 📊 Monitor live civic indicators
-* 🚨 Detect unusual or anomalous conditions
-* 🔍 Analyze multiple signals together
-* 📈 Visualize city trends
-* 🗺️ Monitor location-based information
-* ⚡ Identify potential multi-signal events
-* 🧠 Support faster data-driven civic decisions
+</div>
 
 ---
 
-## 🎯 Problem Statement
+## 🖥️ Developer System
 
-Cities continuously generate large volumes of information, but this information is often distributed across different systems.
+| SYSTEM | CURRENT STATE |
+|---|---|
+| 👤 Name | Yatharth Jain |
+| 💻 Role | Software Developer |
+| 🎓 Background | Computer Science Student |
+| 🌐 Focus | Web Development |
+| 🤖 Exploring | AI & Intelligent Systems |
+| 📊 Exploring | Data Analytics |
+| ⚙️ Engineering | Software Development |
+| 🧠 Learning Style | Project-Based |
+| 🚀 Status | Continuously Building |
 
-For example:
+> I learn by building real projects, understanding systems, debugging problems and improving implementations.
+
+---
+
+## ⚡ What I Build
+
+`Web Development` · `Python` · `AI & Intelligent Systems` · `Data & Analytics` · `Software Engineering` · `Real-World Systems`
+
+---
+
+# 🧰 Technology Core
+
+### 💻 Programming
+
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+
+### 🌐 Web & Apps
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
+
+### 🗄️ Databases
+
+<img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"> <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
+
+### 📊 Data
+
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white">
+
+### 🛠️ Tools
+
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+
+---
+
+# 🧬 Engineering Map
 
 ```text
-Traffic Data
-     ↓
-Weather Data
-     ↓
-Public Complaints
-     ↓
-Incidents
-     ↓
-Environmental Data
-     ↓
-      CityPulse
-         ↓
- ┌──────────────────────┐
- │ Unified Dashboard    │
- │ Anomaly Detection    │
- │ Event Detection      │
- │ Data Visualization   │
- └──────────────────────┘
-```
-
-CityPulse aims to provide a unified view of these signals and help identify patterns that may require attention.
-
----
-
-## ✨ Key Features
-
-### 📊 Live Dashboard
-
-Provides a centralized dashboard for viewing important civic indicators and current city conditions.
-
-### 🚨 Anomaly Detection
-
-Identifies unusual changes or abnormal patterns in incoming data.
-
-Examples:
-
-* Unexpected traffic increase
-* Sudden increase in complaints
-* Unusual environmental readings
-* Abnormal activity in a particular area
-
-### 🔗 Multi-Signal Event Detection
-
-CityPulse can combine multiple signals to identify situations that may not be obvious when each signal is viewed independently.
-
-For example:
-
-```text
-Heavy Rain
-    +
-Traffic Increase
-    +
-Multiple Road Complaints
-    ↓
-Possible Flooding / Traffic Disruption Event
-```
-
-### 📈 Data Visualization
-
-Interactive charts and visual components make it easier to understand:
-
-* Trends
-* Changes over time
-* Geographic patterns
-* Anomalies
-* Civic indicators
-
-### 🗺️ Location-Based Intelligence
-
-CityPulse can organize civic information according to geographical locations and help identify areas experiencing unusual activity.
-
-### ⚡ Real-Time Monitoring
-
-The dashboard is designed around continuously changing civic information, allowing users to monitor city conditions instead of relying only on static reports.
-
----
-
-## 🏗️ System Architecture
-
-```text
-                 ┌──────────────────┐
-                 │   Civic Sources  │
-                 └────────┬─────────┘
-                          │
-                          ▼
-                ┌────────────────────┐
-                │ Data Collection /  │
-                │       APIs         │
-                └─────────┬──────────┘
-                          │
-                          ▼
-                ┌────────────────────┐
-                │ Data Processing &  │
-                │   Preprocessing    │
-                └─────────┬──────────┘
-                          │
-             ┌────────────┴────────────┐
-             ▼                         ▼
-    ┌─────────────────┐       ┌─────────────────┐
-    │ Anomaly         │       │ Multi-Signal    │
-    │ Detection       │       │ Event Detection │
-    └────────┬────────┘       └────────┬────────┘
-             │                         │
-             └────────────┬────────────┘
-                          ▼
-                ┌────────────────────┐
-                │   CityPulse API   │
-                └─────────┬──────────┘
-                          │
-                          ▼
-                ┌────────────────────┐
-                │   Web Dashboard    │
-                │                    │
-                │ Charts • Maps      │
-                │ Alerts • Analytics │
-                └────────────────────┘
+                         SOFTWARE ENGINEERING
+                                  │
+              ┌───────────────────┼───────────────────┐
+              ▼                   ▼                   ▼
+             WEB                 DATA                 AI
+              │                   │                   │
+        React • Node        Pandas • NumPy       Intelligent
+        HTML • CSS           Matplotlib            Systems
+              └───────────────────┼───────────────────┘
+                                  ▼
+                              PROJECTS
+                 ┌────────────────┼────────────────┐
+                 ▼                ▼                ▼
+            Emergency        Civic/Data       Education/
+             Systems          Systems         Navigation
 ```
 
 ---
 
-## 🛠️ Technology Stack
+# 🚀 Project Universe
 
-### Frontend
+## 01 · 🚨 Raksha Setu
+**Intelligent Road Accident Detection & Emergency Response Platform**
 
-* **React.js**
-* **TypeScript**
-* **Tailwind CSS**
-* **Lucide React**
-* **React Router**
-* Interactive charts and dashboard components
+Accident detection, emergency response, risk assessment and location intelligence.
 
-### Backend
+`React` · `TypeScript` · `Supabase` · `Maps` · `Risk Engine`
 
-* **Python**
-* **FastAPI**
-* REST APIs
-* Data processing services
+<a href="https://raksha-setu-emergency-platform--yatharthj7711.replit.app/overview"><img src="https://img.shields.io/badge/LIVE%20DEMO-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
 
-### Data & Machine Learning
+## 02 · 🌆 CityPulse
+**Live Civic Intelligence Dashboard**
 
-* **Python**
-* **Pandas**
-* **NumPy**
-* **Scikit-learn**
-* Anomaly detection
-* Data preprocessing
-* Statistical analysis
+Real-time civic monitoring, anomaly detection and multi-signal analysis.
 
-### Database
+`Traffic` · `Weather` · `Transit` · `Complaints` · `Incidents` · `Environment`
 
-Depending on the deployed configuration, the application can use a structured database for storing civic events, signals, users, and historical information.
+```text
+Weather → Traffic → Transit → Complaints → Multi-Signal Analysis → Civic Intelligence
+```
 
-### Deployment / Development
+<a href="https://married-graduate-guam-rpg.trycloudflare.com/login"><img src="https://img.shields.io/badge/LIVE%20DEMO-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
 
-* Git
-* GitHub
-* Cloudflare Tunnel
-* Local development environment
+## 03 · 🧊 VaxSafe AI
+**Vaccine Cold-Chain Monitoring System**
+
+Telemetry, temperature monitoring, potency tracking and intelligent alerts.
+
+`Python` · `Flask` · `IoT` · `AI` · `Three.js` · `Chart.js`
+
+```text
+-2°C ─────────────────────────── +8°C
+             SAFE RANGE
+```
+
+## 04 · 🎓 Student Academic Performance Analyzer
+**Academic Management & Performance Analysis**
+
+Student information, marks, attendance, grades, reports and database management.
+
+`Python` · `Flask` · `SQLite` · `HTML` · `CSS`
+
+<a href="https://github.com/yatharthg1727-ctrl/Student-Academic-Performance-Analyzer"><img src="https://img.shields.io/badge/REPOSITORY-3B82F6?style=for-the-badge&logo=github&logoColor=white"></a>
+
+## 05 · 🛸 Drone Navigation
+**Intelligent Drone Navigation Concept**
+
+Navigation, path planning, autonomous systems and real-world applications.
+
+`Project concept — technical implementation evolving.`
 
 ---
 
-## 🧠 Intelligence Layer
+# 📊 GitHub Command Center
 
-One of the important components of CityPulse is its intelligence layer.
+<div align="center">
 
-### Anomaly Detection
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=yatharthg1727-ctrl&show_icons=true&hide_border=true&bg_color=080B12&title_color=8B5CF6&icon_color=22D3EE&text_color=F8FAFC&include_all_commits=true" alt="GitHub statistics">
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yatharthg1727-ctrl&layout=compact&hide_border=true&bg_color=080B12&title_color=22D3EE&text_color=F8FAFC&langs_count=8" alt="Top languages">
 
-Historical or incoming data can be analyzed to determine whether a new observation is significantly different from normal behavior.
+<br>
 
-Conceptually:
+<img src="https://streak-stats.demolab.com/?user=yatharthg1727-ctrl&theme=dark&hide_border=true&background=080B12&ring=8B5CF6&fire=EC4899&currStreakLabel=22D3EE&sideLabels=3B82F6&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8" width="90%" alt="Contribution streak">
+
+</div>
+
+---
+
+# 📈 Live GitHub Activity Graph
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=yatharthg1727-ctrl&bg_color=080B12&color=F8FAFC&line=8B5CF6&point=22D3EE&area_color=3B82F6&area=true&hide_border=true&custom_title=Yatharth%20Jain%20-%20GitHub%20Activity" width="100%" alt="GitHub activity graph">
+</div>
+
+> The graph reflects GitHub activity and refreshes according to the graph service's update cycle.
+
+---
+
+# 🐍 Contribution Snake Game
+
+## 🟩 Real GitHub contributions become the snake's game board.
+
+<div align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yatharthg1727-ctrl/yatharthg1727-ctrl/output/github-contribution-grid-snake-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yatharthg1727-ctrl/yatharthg1727-ctrl/output/github-contribution-grid-snake.svg">
+<img src="https://raw.githubusercontent.com/yatharthg1727-ctrl/yatharthg1727-ctrl/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake animation">
+</picture>
+</div>
+
+### 🎮 How it works
 
 ```text
-Normal Pattern
+GITHUB ACTIVITY
       │
       ▼
-Incoming Data
+CONTRIBUTION GRID
       │
       ▼
-Compare With Expected Pattern
+ 🟩 🟨 🟧 🟥
       │
- ┌────┴─────┐
- │          │
-Normal    Anomaly
- │          │
- ▼          ▼
-Monitor    Alert
+      ▼
+    🐍 SNAKE
+      │
+      ▼
+EATS CONTRIBUTION CELLS
 ```
 
-### Multi-Signal Analysis
-
-Instead of analyzing individual signals independently, CityPulse can combine multiple signals.
+### 🔄 Automatic Pipeline
 
 ```text
-Signal A ──┐
-Signal B ──┤
-Signal C ──┼──► Correlation / Rule Analysis
-Signal D ──┘
-                    │
-                    ▼
-             Possible Event
+GitHub Contributions
+        ↓
+GitHub Actions
+        ↓
+Platane/Snk
+        ↓
+Animated SVG
+        ↓
+output branch
+        ↓
+Profile README
+        ↺
+Automatic regeneration
 ```
 
-This approach can help identify complex civic situations.
+> The snake is generated from the real contribution calendar. It does not invent contribution numbers. New contributions appear when GitHub and the workflow data refresh.
 
 ---
 
-## 📊 Example Use Cases
-
-### 🚦 Traffic Monitoring
-
-Detect unusual increases in traffic and identify areas that may require attention.
-
-### 🌧️ Weather + Traffic Analysis
-
-Combine weather conditions with traffic information to identify possible disruptions.
-
-### 🚨 Incident Detection
-
-Identify areas where multiple unusual signals occur at the same time.
-
-### 🏙️ Smart City Monitoring
-
-Provide a centralized intelligence layer for monitoring different city conditions.
-
-### 📍 Area-Level Analysis
-
-Compare different regions of a city and identify locations experiencing abnormal activity.
-
----
-
-## 📁 Project Structure
-
-A possible project structure is:
+# 🔄 Live Profile Architecture
 
 ```text
-CityPulse/
+                    GITHUB ACTIVITY
+                           │
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+        STATS          ACTIVITY GRAPH      STREAK
+          │                │                │
+          └────────────────┼────────────────┘
+                           ▼
+                  CONTRIBUTION CALENDAR
+                           │
+                           ▼
+                      🐍 SNAKE
+                           │
+                           ▼
+                    ANIMATED SVG
+                           │
+                           ▼
+                    PROFILE README
+```
+
+---
+
+# 🎯 Current Focus
+
+```text
+🌐 Advanced Web Development
+🧠 Data Structures & Algorithms
+🤖 Artificial Intelligence
+📚 Machine Learning
+📊 Data Analytics
+⚙️ Software Engineering
+🚀 Real-World Applications
+```
+
+---
+
+# ⚙️ How I Build
+
+```text
+IDEA → PLAN → BUILD → TEST → DEBUG → IMPROVE → SHIP → LEARN ↺
+```
+
+## 🧠 Engineering Mindset
+
+### Build → Break → Understand → Improve
+
+I learn best by building, understanding why systems work, debugging failures and improving practical implementations.
+
+---
+
+# 🧪 Learning & Experiments
+
+## 🐍 Python 100 Programs
+
+Python learning repository covering programming fundamentals, OOP, file handling, exception handling and data libraries.
+
+<a href="https://github.com/yatharthg1727-ctrl/Python_100_Programs"><img src="https://img.shields.io/badge/PYTHON%20100%20PROGRAMS-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
+
+---
+
+# 📚 Computer Science Roadmap
+
+```text
+COMPUTER SCIENCE
 │
-├── frontend/
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   └── ...
-│
-├── backend/
-│   ├── main.py
-│   ├── api/
-│   ├── models/
-│   ├── services/
-│   └── ...
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── ml/
-│   ├── preprocessing/
-│   ├── models/
-│   └── anomaly_detection/
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── 💻 Programming → C++ · Python · Java
+├── 🧠 Data Structures → Arrays · Linked Lists · Stacks · Queues · Algorithms
+├── ⚙️ Software Engineering → OOP · Databases · APIs · Architecture
+└── 🤖 Intelligent Systems → AI · ML · Data · Automation
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🌐 Developer Workflow
 
-### 1. Clone the Repository
+| STAGE | APPROACH |
+|---|---|
+| 💡 Idea | Identify a real problem |
+| 🧩 Plan | Break the problem into smaller systems |
+| 💻 Build | Implement the core functionality |
+| 🧪 Test | Check real use cases |
+| 🐛 Debug | Understand and fix failures |
+| 🔧 Improve | Refine the system |
+| 🚀 Deploy | Make the project usable |
+| 📖 Learn | Document what worked and what didn't |
 
-```bash
-git clone https://github.com/yashkumawat143/city_pulse.git
-cd city_pulse
-```
+---
 
-### 2. Install Backend Dependencies
+# 🏗️ Project Philosophy
 
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Start the Backend
-
-```bash
-uvicorn main:app --reload
-```
-
-### 4. Start the Frontend
-
-Navigate to the frontend directory:
-
-```bash
-cd frontend
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run the development server:
-
-```bash
-npm run dev
+```text
+REAL PROBLEM → PRACTICAL IDEA → SYSTEM DESIGN → WORKING SOFTWARE
+                                      ↓
+                              TEST → DEBUG → IMPROVE
+                                      ↓
+                                REAL-WORLD USE
 ```
 
 ---
 
-## 🔐 Environment Variables
+# 🔗 Connect
 
-Create a `.env` file for sensitive configuration:
+<div align="center">
+<a href="https://github.com/yatharthg1727-ctrl"><img src="https://img.shields.io/badge/GITHUB-yatharthg1727--ctrl-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/yatharthjain1234879/"><img src="https://img.shields.io/badge/LINKEDIN-Yatharth%20Jain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
-```env
-API_KEY=your_api_key
-DATABASE_URL=your_database_url
-```
+<br><br>
 
-> **Never upload API keys, passwords, database credentials, or other secrets to GitHub.**
+# ⚡ ALWAYS BUILDING
 
-Add `.env` to `.gitignore`:
+`CODE` • `LEARN` • `CREATE` • `DEBUG` • `IMPROVE`
 
-```gitignore
-.env
-__pycache__/
-node_modules/
-*.pkl
-*.pyc
-```
-
----
-
-## 🌐 Live Demo
-
-The current development/demo deployment is available here:
-
-🔗 **https://lanes-terminals-campbell-ace.trycloudflare.com/**
-
-> Note: This URL is a Cloudflare Tunnel address and may change when the tunnel is restarted.
-
----
-
-## 🔮 Future Improvements
-
-* 🤖 Advanced ML-based anomaly detection
-* 📡 More real-time data sources
-* 🗺️ Advanced GIS/map integration
-* 🔔 Real-time alert notifications
-* 📱 Mobile-friendly civic monitoring interface
-* 🧠 Predictive civic event detection
-* 📊 Historical trend analysis
-* 👥 Role-based access control
-* ☁️ Cloud deployment
-* 🔄 Automated data pipelines
-* 📈 Advanced forecasting models
-
----
-
-## 🎓 Skills Demonstrated
-
-This project demonstrates practical experience in:
-
-* Full-stack development
-* Python
-* React
-* TypeScript
-* REST APIs
-* FastAPI
-* Data processing
-* Pandas & NumPy
-* Machine Learning
-* Anomaly Detection
-* Data Visualization
-* Real-time monitoring
-* Git & GitHub
-* API integration
-* Dashboard development
-
----
-
-## 👨‍💻 Author
-
-**Yash Kumawat**
-
-GitHub: [yashkumawat143](https://github.com/yashkumawat143)
-
----
-
-## ⭐ Support
-
-If you find this project useful, consider giving the repository a ⭐ on GitHub.
-
----
-
-## 📜 License
-
-This project is intended for educational, experimental, and demonstration purposes.
+<br>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:8B5CF6,50:3B82F6,100:22D3EE" width="100%" alt="Animated footer">
+</div>
